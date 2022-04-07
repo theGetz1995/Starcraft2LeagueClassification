@@ -1,57 +1,20 @@
-Starcraft Capstone
+# Starcraft 2 Capstone
 ==============================
 
-Using data to determine what actions have the largest impact on ranking up or down in Starcraft 2
+Achieving a high league in Starcraft 2 online play is hard. In fact players spend months, if not years, wobbling up and down within their league, struggling to break into the next tier. This process is hard enough that it has spawned and supports an entire online infrastructure around strategy guides, coaching, and tips & tricks all targeted at helping players “rank up”. This project aims to discern what non-strategic changes most effectively help a player increase their league tier and will use machine learning to predict players who are performing above their league status.
 
-Project Organization
-------------
-
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
-
---------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+## Table of Contents
+### 1. Data
+* [Raw Data](https://archive.ics.uci.edu/ml/datasets/skillcraft1+master+table+dataset "Raw Data")
+* [Interim Data](https://github.com/theGetz1995/Starcraft2LeagueClassification/tree/main/data "Interim Data")
+### 2. Documents
+* [Final Report](https://github.com/theGetz1995/Starcraft2LeagueClassification/blob/main/docs/Starcraft%20II%20Final%20Report.pdf "Final Report")
+* Presentation
+### 3. Notebooks
+* [Data Wrangling](https://github.com/theGetz1995/Starcraft2LeagueClassification/blob/main/notebooks/01_Getz_Data_Wrangling.ipynb "Data Wrangling")
+* [Exploratory Data Analysis](https://github.com/theGetz1995/Starcraft2LeagueClassification/blob/main/notebooks/04_Getz_EDA_Second_Pass.ipynb "Exploratory Data Analysis")
+* Feature Importances
+    * [Random Forest Importances](https://github.com/theGetz1995/Starcraft2LeagueClassification/blob/main/notebooks/03_Getz_Feature_Importance.ipynb "Random Forest Importances")
+    * [Regression Importances](https://github.com/theGetz1995/Starcraft2LeagueClassification/blob/main/notebooks/05_Getz_feature_importance_regression.ipynb "Regression Importances")
+    * [SHAP Importances](https://github.com/theGetz1995/Starcraft2LeagueClassification/blob/main/notebooks/06_Getz_Shap_Feature_Importance.ipynb "SHAP Importances")
+* [Modeling](https://github.com/theGetz1995/Starcraft2LeagueClassification/blob/main/notebooks/08_Getz_Modeling.ipynb "Modeling")
