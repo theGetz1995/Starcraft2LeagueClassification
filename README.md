@@ -9,7 +9,7 @@ Achieving a high league in Starcraft 2 online play is hard. In fact players spen
 * [Interim Data](https://github.com/theGetz1995/Starcraft2LeagueClassification/tree/main/data "Interim Data")
 ### 2. Documents
 * [Final Report](https://github.com/theGetz1995/Starcraft2LeagueClassification/blob/main/docs/Starcraft%20II%20Final%20Report.pdf "Final Report")
-* Presentation
+* [Presentation](https://github.com/theGetz1995/Starcraft2LeagueClassification/blob/main/docs/Starcraft%202%20Presentation.pdf "Presentation")
 ### 3. Notebooks
 * [Data Wrangling](https://github.com/theGetz1995/Starcraft2LeagueClassification/blob/main/notebooks/01_Getz_Data_Wrangling.ipynb "Data Wrangling")
 * [Exploratory Data Analysis](https://github.com/theGetz1995/Starcraft2LeagueClassification/blob/main/notebooks/04_Getz_EDA_Second_Pass.ipynb "Exploratory Data Analysis")
